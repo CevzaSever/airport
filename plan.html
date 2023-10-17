@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div>
+      <form action="/name">
+          <label for="firstname">First Name</label>
+          <input type="text" placeholder="First name" id="firstname" name="firstname"/>
+          <p>
+          <label for="lastname">Last Name</label>
+          <input type="text" placeholder="Last name" id="lastname" name="lastname"/>
+      </form>
+      <div>
+        <label for="fly">Departure</label>
+        <select name="fly" id="fly">
+          <option value="italy">Italy</option>
+          <option value="france" >France</option>
+          <option value="germany">Germany</option>
+        </select>
+        <p>
+            <label for="fly2">Arrival</label>
+            <select name="fly2" id="fly2">
+                <option value="italy">Italy</option>
+                <option value="france" >France</option>
+                <option value="germany">Germany</option>
+            </select>
+        </p>
+      </div>
+      <label for="time">Choose a time for your flying:</label>
+
+<input type="time" id="time" name="time" required />
+<p>
+    <button><a href="#">Search</a></button>
+</p>
+</body>
+</html>
